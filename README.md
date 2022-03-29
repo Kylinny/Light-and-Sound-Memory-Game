@@ -4,7 +4,7 @@
 
 Submitted by: **Junyi Yao**
 
-Time spent: **6** hours spent in total
+Time spent: **7** hours spent in total
 
 Link to project: https://tar-square-cayenne.glitch.me/
 
@@ -23,10 +23,10 @@ The following **required** functionality is complete:
 The following **optional** features are implemented:
 
 * [x] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
-* [ ] Buttons use a pitch (frequency) other than the ones in the tutorial
-* [ ] More than 4 functional game buttons
-* [ ] Playback speeds up on each turn
-* [ ] Computer picks a different pattern each time the game is played
+* [x] Buttons use a pitch (frequency) other than the ones in the tutorial
+* [x] More than 4 functional game buttons
+* [x] Playback speeds up on each turn
+* [x] Computer picks a different pattern each time the game is played
 * [ ] Player only loses after 3 mistakes (instead of on the first mistake)
 * [ ] Game button appearance change goes beyond color (e.g. add an image)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
@@ -35,16 +35,20 @@ The following **optional** features are implemented:
 
 ## Video Walkthrough (GIF)
 
-If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](https://cdn.glitch.global/0c9b2b51-8eed-4700-9b49-936f9abba15a/ezgif.com-gif-maker.gif?v=1647372679515)
-![](https://cdn.glitch.global/0c9b2b51-8eed-4700-9b49-936f9abba15a/Hnet-image.gif?v=1647372717247)
+This is a lost case.
+![](https://cdn.glitch.global/0c9b2b51-8eed-4700-9b49-936f9abba15a/ezgif.com-gif-maker%20(1).gif?v=1648517200149)
+
+This is a win case.
+![](https://cdn.glitch.global/0c9b2b51-8eed-4700-9b49-936f9abba15a/ezgif.com-gif-maker%20(2).gif?v=1648517212860)
 ![](gif3-link-here)
 ![](gif4-link-here)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 
-I didn't use any outside resouces.
+I use https://stackoverflow.com/questions/5836833/create-an-array-with-random-values to help me 
+create a random array for pattern each time the player starts the game. I know how to use Math.random but this
+command is more succinct and convenient.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
