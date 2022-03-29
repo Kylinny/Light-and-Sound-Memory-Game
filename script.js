@@ -17,7 +17,7 @@ var guessCounter = 0;
 
 function generatePattern(){
   
-  pattern = Array(4).fill().map(() => (Math.floor(Math.random() * 5))+1);
+  pattern = Array(7).fill().map(() => (Math.floor(Math.random() * 5))+1);
 
 }
 
@@ -31,6 +31,7 @@ function startGame(){
     document.getElementById("stopBtn").classList.remove("hidden");
     playClueSequence();
 }
+
 
 function stopGame(){
     //initialize game variables
@@ -106,7 +107,7 @@ function playClueSequence(){
     delay += clueHoldTime ;
     delay += cluePauseTime;
   }
-  clueHoldTime -= 120;
+  clueHoldTime -= 125;
 }
 
 function guess(btn){

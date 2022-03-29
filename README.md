@@ -87,7 +87,7 @@ This might also involve some game designs. I can also make a board to keep track
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](https://wustl.zoom.us/rec/share/eALTnCW_4KMESOq6xxnAjxMUMWYtCahtX-uOMOcG88GYNYurcUITKoc950xMkR0_.nT61vO68nsPG3zoz?startTime=1648328242000)
+[My 5-minute Interview Recording](https://wustl.zoom.us/rec/share/THVJ5_McIolWdVo3lsfnb3SRI81rvArwkYi9v1Bxe2d45Kkbb5COBt-TDk21_wo5.MCLJ3GR_HloAe_hA?startTime=1648517713000)
 
 
 ## License
