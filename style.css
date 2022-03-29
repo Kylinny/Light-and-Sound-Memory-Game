@@ -1,11 +1,3 @@
-/******************************************************************************
-START Glitch hello-app default styles
-
-The styles in this section do some minimal CSS resets, set default fonts and 
-colors, and handle the layout for our footer and "Remix on Glitch" button. If
-you're new to CSS they may seem a little complicated, but you can scroll down
-to this section's matching END comment to see page-specific styles.
-******************************************************************************/
 
 
 /* 
@@ -49,7 +41,6 @@ to this section's matching END comment to see page-specific styles.
 
 /* Our remix on glitch button */
 .btn--remix {
-  font-family: HK Grotesk;
   padding: 0.75rem 1rem;
   font-size: 1.1rem;
   line-height: 1rem;
@@ -62,7 +53,7 @@ to this section's matching END comment to see page-specific styles.
   box-sizing: border-box;
   border-radius: 4px;
   text-decoration: none;
-  color: #000;
+  color: #000000;
   white-space: nowrap;
   margin-left: auto;
 }
@@ -89,7 +80,7 @@ a:not(.btn--remix):visited {
   font-family: HK Grotesk;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #000;
   text-decoration: none;
   border-style: none;
@@ -99,12 +90,12 @@ a:not(.btn--remix):visited {
 }
 
 .footer .links {
-  padding: 0.5rem 1rem 1.5rem;
+  padding: 1rem 1rem 1.5rem;
   white-space: nowrap;
 }
 
 .divider {
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 /******************************************************************************
 END Glitch hello-app default styles
@@ -112,7 +103,7 @@ END Glitch hello-app default styles
 
 body {
   font-family: helvetica, arial, sans-serif; 
-  margin: 2em;
+  margin: 4em;
   background-color: slategrey;
   color: white; 
 
@@ -139,7 +130,6 @@ hi {
 /* Very light scaling for our illustration */
 .title {
   color: #2800FF;
-  font-family: HK Grotesk;
   font-style: normal;
   font-weight: bold;
   font-size: 100px;
@@ -201,11 +191,19 @@ button {
 }
 
 #Button4 {
-    background: lightyellow;
+    background: Papayawhip;
 }
 
 #Button4:active, #Button4.lit {
-    background:yellow;
+    background: Navajowhite;
+}
+
+#Button5 {
+    background: Tan;
+}
+
+#Button5:active, #Button5.lit {
+    background: Peru;
 }
 
 input {
@@ -214,7 +212,7 @@ input {
   background: #FFFFFF;
   border: 1px solid #000000;
   box-sizing: border-box;
-  border-radius: 4px;
+  border-radius: 5px;
   padding: 0.5rem 1rem;
   transition: 500ms;
 }

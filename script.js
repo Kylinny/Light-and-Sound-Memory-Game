@@ -3,24 +3,33 @@ This is your site JavaScript code - you can add interactivity and carry out proc
 - Initially the JS writes a message to the console, and moves a button you can add from the README
 */
 // global constants
-const clueHoldTime = 1000;
+
 const cluePauseTime = 333; //how long to pause in between clues
 const nextClueWaitTime = 1000; //how long to wait before starting playback of the clue sequence//how long to hold each clue's light/sound
+// global variables
+var pattern;
+var clueHoldTime = 1200;
 var tonePlaying = false;
 var volume = 0.5;  //must be between 0.0 and 1.0
-var pattern = [2, 2, 4, 3, 2, 1, 2, 4];
 var progress = 0; 
 var gamePlaying = false;
 var guessCounter = 0;
 
+function generatePattern(){
+  
+  pattern = Array(4).fill().map(() => (Math.floor(Math.random() * 5))+1);
+
+}
+
 function startGame(){
     //initialize game variables
+    generatePattern();
     progress = 0;
     gamePlaying = true;
-  
+    clueHoldTime = 1200;
     document.getElementById("startBtn").classList.add("hidden");
     document.getElementById("stopBtn").classList.remove("hidden");
-    playClueSequence()
+    playClueSequence();
 }
 
 function stopGame(){
@@ -41,10 +50,13 @@ const btn = document.querySelector("button"); // Get the button from the page
 
 // Sound Synthesis Functions
 const freqMap = {
-  1: 261.6,
-  2: 329.6,
+  
+  1: 261,
+  2: 320.6,
   3: 392,
-  4: 466.2
+  4: 467.2,
+  5: 300
+  
 }
 
 function playTone(btn,len){ 
@@ -91,9 +103,10 @@ function playClueSequence(){
   for(let i=0;i<=progress;i++){ // for each clue that is revealed so far
     console.log("play single clue: " + pattern[i] + " in " + delay + "ms")
     setTimeout(playSingleClue,delay,pattern[i]) // set a timeout to play that clue
-    delay += clueHoldTime 
+    delay += clueHoldTime ;
     delay += cluePauseTime;
   }
+  clueHoldTime -= 120;
 }
 
 function guess(btn){
