@@ -32,6 +32,7 @@ function startGame(){
     playClueSequence();
 }
 
+
 function stopGame(){
     //initialize game variables
     gamePlaying = false;
@@ -106,7 +107,7 @@ function playClueSequence(){
     delay += clueHoldTime ;
     delay += cluePauseTime;
   }
-  clueHoldTime -= 120;
+  clueHoldTime -= 125;
 }
 
 function guess(btn){
