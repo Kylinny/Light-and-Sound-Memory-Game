@@ -17,7 +17,7 @@ var guessCounter = 0;
 
 function generatePattern(){
   
-  pattern = Array(4).fill().map(() => (Math.floor(Math.random() * 5))+1);
+  pattern = Array(7).fill().map(() => (Math.floor(Math.random() * 5))+1);
 
 }
 
