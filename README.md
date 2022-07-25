@@ -1,10 +1,6 @@
-# Pre-work - *Memory Game*
+# *Memory Game*
 
-**Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
-
-Submitted by: **Junyi Yao**
-
-Time spent: **7** hours spent in total
+**Memory Game** is a Light & Sound Memory game
 
 Link to project: https://tar-square-cayenne.glitch.me/
 
@@ -83,11 +79,6 @@ If I have more time, I probably will change the shape or the color or add some p
 I will probably also add more pages to the website and add a different level of difficulties, so the user could go through them and find it more like a game with multiple levels and layers. 
 This might also involve some game designs. I can also make a board to keep track of players’ records in playing this game.
 
-
-
-## Interview Recording URL Link
-
-[My 5-minute Interview Recording](https://wustl.zoom.us/rec/share/THVJ5_McIolWdVo3lsfnb3SRI81rvArwkYi9v1Bxe2d45Kkbb5COBt-TDk21_wo5.MCLJ3GR_HloAe_hA?startTime=1648517713000)
 
 
 ## License
