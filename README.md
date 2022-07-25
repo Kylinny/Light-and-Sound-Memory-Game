@@ -39,46 +39,6 @@ This is a win case.
 ![](gif3-link-here)
 ![](gif4-link-here)
 
-## Reflection Questions
-1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-
-I use https://stackoverflow.com/questions/5836833/create-an-array-with-random-values to help me 
-create a random array for pattern each time the player starts the game. I know how to use Math.random but this
-command is more succinct and convenient.
-
-2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-
-The biggest challenge for me was to write the code for game logic. 
-The flow chart was very helpful, and I did understand the logistics of the game. 
-However, I still found it’s hard to start writing code for this part. 
-These if-else statements seemed easy to implement, but when I tried to figure out the correct orders and conditions, there was much more to consider than I expected. 
-I need to check if the gamer’s guess matches the correct pattern and then update each turn for one more clue. 
-Probably because I’m not familiar with JS and HTML, I found it’s hard to update the process correctly and end the game when gamers make mistakes. 
-To figure this out, I went through all functions I wrote for the game again and tried to find a way to coordinate with them and use them in my game logic function. 
-I started with the most straightforward logic in the game that once you make a mistake, you lose the game. 
-So that would be my first and foremost if-else condition. Starting from there, I built up more complicated logic like if I succeed, I continue for the next clue. 
-Step by step, I sorted the general reasoning out. 
-But there’s still something missing that doesn’t update the pattern accordingly. After being stuck on these problems for an hour, I decided to check the given answer. 
-Then I realized that I didn’t use the guessCounter correctly for my function. 
-That’s why it couldn’t update itself. I then fixed the bug in my if statement, and it worked well.
-
-
-3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-
-Other than some technical questions related to languages CSS, HTML, or JavaScript I used in the Prework, which I think I can figure out by myself, I wonder if there could be more interactive features added on the web. 
-Usually, a website is used to present something to the user, but I think if the user could modify or edit the existing web content, I might be able to build more interactive web-based games for players. 
-I am also wondering how important UI/UX design is in web development. 
-Since this pre-work assignment only involves the coding elements and a little color or sound design, I wonder if designing the interface or overall composition of the website is also an essential skill for a web developer.
-
-4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-
-I will add additional features for the button, color, and sound. 
-I was thinking maybe I could add a piece of music into the pattern and set the order so that when the player succeeds in clicking on the correct pattern, the player will hear the entire piece of music. 
-I think I will also add more decorations to the buttons themselves because right now, they are very standard buttons. 
-If I have more time, I probably will change the shape or the color or add some photos to the click function so that they will reveal some exciting pictures when the user clicks on them. 
-I will probably also add more pages to the website and add a different level of difficulties, so the user could go through them and find it more like a game with multiple levels and layers. 
-This might also involve some game designs. I can also make a board to keep track of players’ records in playing this game.
-
 
 
 ## License
