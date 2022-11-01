@@ -4,7 +4,7 @@
 
 Link to project: https://tar-square-cayenne.glitch.me/
 
-## Required Functionality
+##Functionality
 
 The following functionality is complete:
 
